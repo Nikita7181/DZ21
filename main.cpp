@@ -627,7 +627,7 @@ void insertDatabase(op_code select)
     bool isOk = true;
     record * new_student = nullptr;
     do {
-        std::cout << "What type of student do you wont do add (1 - general, 2 - individual, 0 - break input) " << std::endl;
+        std::cout << "What type of student do you wont do add (1 - insdividual, 2 - general, 0 - break input) " << std::endl;
         ch = std::getchar();
         std::cin.ignore(1);
 
